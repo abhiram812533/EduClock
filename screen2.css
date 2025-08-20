@@ -1,0 +1,16 @@
+:root{
+  --bg1:#0f2027; --bg2:#203a43; --bg3:#2c5364;
+  --btn1:#11998e; --btn2:#38ef7d;
+}
+*{box-sizing:border-box;font-family:Poppins,system-ui,Arial}
+body{margin:0;min-height:100vh;background:linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));color:#fff}
+header{display:flex;align-items:center;gap:12px;padding:14px}
+.back{background:rgba(255,255,255,.15);color:#fff;border:0;border-radius:10px;padding:8px 12px;cursor:pointer}
+.title{flex:1;text-align:center;font-weight:800;letter-spacing:.5px}
+.card{width:min(680px,92vw);margin:40px auto;background:rgba(255,255,255,.08);border-radius:20px;padding:22px;backdrop-filter:blur(8px);text-align:center;box-shadow:0 16px 40px rgba(0,0,0,.25)}
+input{width:86%;max-width:460px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.15);color:#fff;font-size:16px;outline:none}
+.btn-row{display:flex;justify-content:center;gap:12px;margin-top:16px;flex-wrap:wrap}
+.btn{border:0;padding:13px 22px;border-radius:14px;font-weight:700;color:#fff;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.gloss{background:linear-gradient(135deg,var(--btn1),var(--btn2));position:relative;overflow:hidden}
+.gloss::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.28),rgba(255,255,255,0))}
