@@ -4,7 +4,7 @@ EduClock is a smart timetable management app that helps students easily track th
 ---
 
 ## 🚀 Live Demo
-👉 [Click Here to Open EduClock](https://abhiram812533.github.io/educlock/)
+(https://abhiram812533.github.io/educlock/)
 
 ---
 
@@ -21,9 +21,6 @@ EduClock is a smart timetable management app that helps students easily track th
 
 ### Timetable
 ![Timetable](timetable.png)
-
-### Video
-![Video](screenshots/video.png)
 
 ---
 
